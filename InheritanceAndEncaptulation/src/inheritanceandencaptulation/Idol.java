@@ -1,4 +1,4 @@
-package kalkulasi;
+package inheritanceandencaptulation;
 
 public class Idol extends Human {
     public String intro;
@@ -13,7 +13,7 @@ public class Idol extends Human {
     }
     
     void helloEveryone(){
-        System.out.println("Halo aku ");
+        System.out.println(this.intro + this.nama + this.member);
     }
     
 }
